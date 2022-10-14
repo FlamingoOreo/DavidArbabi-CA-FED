@@ -33,7 +33,7 @@ for(let i = 1; i<6;i++){
 
 $(document).ready(function(){
     $("#personalTable img").on("click", function(){
-        window.open(this.src, "" ,"width=500,height=500");
+        window.open(this.src);
     })
     $("#personalTable tr:odd").on("mouseenter mouseleave", highlight);
 });
